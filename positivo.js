@@ -1,16 +1,6 @@
 let corpo = document.querySelector('body')
 let hoje = document.querySelector('#frases')
 let test = document.querySelector('#test')
-let te = document.querySelector('#te')
-let hora = document.getElementById('hora')
-let data=document.getElementById('data')
-let h = new Date
-let d = new Date
-data.innerHTML=d.toLocaleDateString('pt-Br')
-hora.innerHTML=h.toLocaleTimeString('pt-br')
-
-
-
 
 function fras(a,b){
     return Math.floor(Math.random() * (b - a + 1))+a

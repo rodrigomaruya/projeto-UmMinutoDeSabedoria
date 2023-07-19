@@ -1,13 +1,4 @@
-#hoje{
-    font-family: 'Courier New', Courier, monospace;
-    max-width: 800px;
-    min-width: 350px;
-    height: 60px;
-    margin:auto;
-    display: flex;
-    justify-content:space-around;
-    
-}
+
 #te{
     
     margin-top: 0px;
@@ -21,6 +12,8 @@
 }
 
 h1,p{
+    margin: 0;
+    padding: 20px;
     text-align: center;
     font-family: 'Courier New', Courier, monospace;
     font-style: italic;
